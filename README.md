@@ -14,9 +14,9 @@ update your source code.
     (defproject my-project "1.0.0"
       ...
       :margauto {
-        :src-dirs      ["src" "test"]
-        :sleep-time 1000
-        :port            3000})
+        :src-dirs    ["src" "test"]
+        :sleep-time  1000
+        :port        3000})
 
 ### `:src-dirs`
 
