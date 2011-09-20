@@ -9,6 +9,9 @@ update your source code.
 
     lein margauto
 
+Then open [http://localhost:3000/](http://localhost:3000/) in your browser to
+view your documentation.  Refresh as you make changes to see the updates.
+
 ## Configuration
 
     (defproject my-project "1.0.0"
@@ -32,7 +35,7 @@ rebuilding when it sees a change.  `:sleep-time` controls how long
 `lein-margauto` will pause before checking the directory structure
 again.
 
-The default is 100 ms (1 second).
+The default is 1000 ms (1 second).
 
 ### `:port`
 
